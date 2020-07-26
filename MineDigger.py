@@ -113,5 +113,5 @@ while rgb != sky_blue:
     rgb = ImageGrab.grab().getpixel((791, 343))
     judge_situation_click()
 
-### I need more effective Algorithm for soving this
+### I need more effective Algorithm for solving this things.
 
