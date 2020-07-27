@@ -73,8 +73,8 @@ def count_nearby(num):
     count = 0
     count_list = []
     position = search_position(num)
+    screen = ImageGrab.grab()
     for i in position:
-        screen = ImageGrab.grab()
         for j in range(i[0]-45, i[0]+46, 45):
             for k in range(i[1]-45, i[1]+46, 45):
                 rgb = screen.getpixel((j, k-3))
